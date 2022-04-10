@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    align-items: space-around;
+    justify-content: center;
+}
+.userInput{
+    display: flex;
+    justify-content:center;
+}
+input{
+    margin: 10px;
+    height: 35px;
+    width: 65px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: arimo;
+    font-size: 1.1rem;
+    background: pink;
+}
+button{ 
+    width:150px;
+    height: 40px;
+    margin: 25px auto 0px auto;
+    font-family: arimo;
+    border:none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+
